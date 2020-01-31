@@ -60,7 +60,7 @@ At this point, we should be set up with everything we need to use the computing 
 
 The goal of the second part of this assignment is both to give you some very basic exposure to using computers via a command line interface instead of a more familar GUI or browser interface. This assignment will only utilize the bare minimum amount of tools and programs necessary to get started looking at the types of data and representations of biology we use in transcriptomics. Next week, you will use a DataCamp module to practice and gain exposure to a wider variety of useful tools and techniques.
 
-If you have never used a linux/unix shell before, I strongly encourage you to work through the first free chapter of the DataCamp Introduction To Shell course, available at https://www.datacamp.com/courses/introduction-to-shell-for-data-science
+*If you have never used a linux/unix shell before, I strongly encourage you to work through the first free chapter of the DataCamp Introduction To Shell course, available at https://www.datacamp.com/courses/introduction-to-shell-for-data-science *
 
 ## Reference genome sequences
 
@@ -133,9 +133,17 @@ head -n 425000 [filename] | tail
 
 Q3) Do the beginning and middle of the file look similar? Why might one part be different than another? (Speculation is good here, I'm not judging based on correctness)
 
-Q4) How many of each base (A, C, G, T, or N) are present in chromosome 22? There are multiple ways to answer this. Hint: using `grep -o ` with the `-o` flag outputs every match on a new line instead of entire lines. You can combine this with the `wc` command in a similar way to how we just combined `head` and `tail`.
+We can use very powerful `grep` search tool to find specific patterns in a file or input. `grep` works by calling `grep [pattern] [filename]` where `[pattern]` is text that we want to match. Grep will output only those lines in the file that contain the search pattern we gave it. For instance the following command will find all lines that contain the particular series of DNA "GAATTC":
 
-Advanced question worth an extra half hour of lab time: AQ1) Restriction sites are DNA elements targeted by special enzymes known as "restriction enzymes" which cut DNA. How many EcoRI sites are present in chromosome 22? How did you determine this? (This need to be correct, think carefully about how one big contiguous sequence of chromosome is represented in this FASTA file)
+```bash
+
+grep GAATTC Homo_sapiens.GRCh38.dna.chromosome.22.fa
+
+```
+
+Q4) How many of each base (A, C, G, T, or N) are present in chromosome 22? There are multiple ways to answer this. Hint: using `grep -o [search_text] [filename]` with the `-o` flag outputs every match on a new line instead of entire matching lines. You can combine this with the `wc` command in a similar way to how we just combined `head` and `tail`.
+
+*Advanced question worth an extra half hour of lab time: AQ1)* Restriction sites are DNA elements targeted by special enzymes known as "restriction enzymes" which cut DNA. How many EcoRI sites are present in chromosome 22? How did you determine this? (This need to be correct, think carefully about how one big contiguous sequence of chromosome is represented in this FASTA file)
 
 ### The purpose of the reference genome files
 
