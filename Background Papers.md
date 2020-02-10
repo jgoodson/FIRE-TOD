@@ -29,9 +29,9 @@ Background literature:
 
 - Deep Learning (Protein)
 	* [Biological Structure and Function Emerge from Scaling Unsupervised Learning to 250 Million Protein Sequences.]( https://www.biorxiv.org/content/10.1101/622803v2)
-	* Deep generative models of genetic variation capture the effects of mutations https://www.nature.com/articles/s41592-018-0138-4
+	* [Deep generative models of genetic variation capture the effects of mutations](https://www.nature.com/articles/s41592-018-0138-4)
 - Deep Learning (Gene Clusters)
 	* [A deep learning genome-mining strategy for biosynthetic gene cluster prediction.](https://www.ncbi.nlm.nih.gov/pubmed/31400112 )
 - Deep Learning (Transcription)
 	* [Measurement and modeling of intrinsic transcription terminators.](https://www.ncbi.nlm.nih.gov/pubmed/23511967)
-	* https://www.ncbi.nlm.nih.gov/pubmed/17313685
+	* [Rapid, accurate, computational discovery of Rho-independent transcription terminators illuminates their relationship to DNA uptake.](https://www.ncbi.nlm.nih.gov/pubmed/17313685)
