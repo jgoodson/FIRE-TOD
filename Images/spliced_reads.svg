@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 717.45 315.29" style="enable-background:new 0 0 717.45 315.29;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'ArialMT';}
+	.st1{font-size:10px;}
+	.st2{fill:#35409A;}
+	.st3{fill:#BE2627;}
+	.st4{fill:#364299;}
+	.st5{font-size:18px;}
+	.st6{stroke:#000000;stroke-miterlimit:10;}
+</style>
+<text transform="matrix(1 0 0 1 0.9089 36.2832)" class="st0 st1">CATGTTTCCACTTACAGATCCTTCAAAAAGAGTGTTTCAAAACTGCTCTATGAAAAGGAATGTTCAACTCTGTGAGTTAAATAAAAGCATCAAAAAAAAGTTTCTGA</text>
+<text transform="matrix(1 0 0 1 0.9088 82.4105)"><tspan x="0" y="0" class="st2 st0 st1">CATGTTTCCACTTACAGATCCTTCAAAAAGAGTGTTTC</tspan><tspan x="256.67" y="0" class="st0 st1">AAAACTGCTCTATGAAAAGGAATGTTCAACTCTGTGAGTT</tspan><tspan x="528.9" y="0" class="st3 st0 st1">AAATAAAAGCATCAAAAAAAAGTTTCTGA</tspan></text>
+<text transform="matrix(1 0 0 1 154.6542 147.1564)"><tspan x="0" y="0" class="st4 st0 st1">CATGTTTCCACTTACAGATCCTTCAAAAAGAGTGTTTC</tspan><tspan x="256.67" y="0" class="st3 st0 st1">AAATAAAAGCATCAAAAAAAAGTTTCTGA</tspan></text>
+<text transform="matrix(1 0 0 1 72.6545 15.4468)" class="st0 st5">Genome</text>
+<text transform="matrix(1 0 0 1 72.6727 62.3195)" class="st0 st5">Initial Transcript</text>
+<text transform="matrix(1 0 0 1 153.8181 126.7198)" class="st0 st5">Final mRNA</text>
+<text transform="matrix(1 0 0 1 -1.525879e-04 222.3741)" class="st0 st1">CATGTTTCCACTTACAGATCCTTCAAAAAGAGTGTTTCAAAACTGCTCTATGAAAAGGAATGTTCAACTCTGTGAGTTAAATAAAAGCATCAAAAAAAAGTTTCTGA</text>
+<text transform="matrix(1 0 0 1 71.7454 201.5377)" class="st0 st5">Genome</text>
+<text transform="matrix(1 0 0 1 66.6179 266.7929)" class="st4 st0 st1">CTTACAGATCCTTCAAAAAGAGTGT</text>
+<text transform="matrix(1 0 0 1 91.8725 277.2656)" class="st4 st0 st1">CAGATCCTTCAAAAAGAGTGTTTC</text>
+<text transform="matrix(1 0 0 1 139.8179 289.0474)"><tspan x="0" y="0" class="st4 st0 st1">TTCAAAAAGAGTGTTTC</tspan><tspan x="114.45" y="0" class="st0 st1">.................................................................................................</tspan><tspan x="383.94" y="0" class="st3 st0 st1">AAATAAAAGCATCAAAA</tspan></text>
+<text transform="matrix(1 0 0 1 523.6725 300.9747)" class="st3 st0 st1">AAATAAAAGCATCAAAAAAAA</text>
+<text transform="matrix(1 0 0 1 73.8182 244.3014)" class="st0 st5">Aligned Sequence Reads</text>
+<text transform="matrix(1 0 0 1 562.0907 312.0474)" class="st3 st0 st1">AAGCATCAAAAAAAAGTTTCTGA</text>
+<text transform="matrix(1 0 0 1 0.4725 256.1202)" class="st4 st0 st1">CATGTTTCCACTTACAGATCCTT</text>
+<line class="st6" x1="255.93" y1="82.21" x2="408.44" y2="137.85"/>
+<line class="st6" x1="524.95" y1="82.21" x2="408.44" y2="137.85"/>
+</svg>
