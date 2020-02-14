@@ -247,7 +247,7 @@ cd spyo_data
 fasterq-dump -p [SRA Accession]
 
 ls -lh
-pigz [SRA Accession].fastq
+pigz -p 4 [SRA Accession].fastq
 
 ```
 
