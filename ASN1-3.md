@@ -303,16 +303,19 @@ We need to modify the previous command only slightly, removing the `--reads2` op
 
 Now that we have the nice, clean, trimmed FASTQ file, we can go ahead and use `bowtie2` to align these reads to the genome we prepared. Bowtie2 can be run on single-end reads with the following pattern:
 
+Example bowtie2 alignment (don't run)
 `bowtie2 -x [Index name] -U [FASTQ Reads] -p [# of Threads]`
 
 This takes in the genome index and FASTQ read file and will output the SAM lines directly to standard out (the screen if not redirected).
 
 Since this is a full-size sequence file now, we are going to add another wrinkle. In much the same way the FASTQ files contain a lot of sequence and can be compressed to be much smaller and save disk space, the SAM alignment files contain a lot of raw text and number information that is very inefficient and wasteful of space. While we could use the generic `gzip` encryption for these, bioinformaticists have developed a special method of compressing these types of alignment files that both saves space and processes much faster than ordinary compresion. This file format is helpfully called "BAM" and can be used interchangeably with SAM files by almost all programs designed to work with alignment files. The program we will use to convert SAM to BAM is called `samtools` and is already installed. `samtools view` can be used to convert standard input SAM to BAM as follows:
 
+Example samtools conversion (don't run) 
 `[program to output SAM format] | samtools view -b - > [SRA Accession].bam`
 
 The `-` and the end of the command is a relatively common way to tell a program to look for input from a pipe/standard input instead of from a file. If we had already generated a SAM file, we could instead give the filename in place of the `-` and run `samtools view` without piping in input.
 
+Example samtools conversion (don't run)
 `samtools view -b [input].sam > [SRA Accession].bam`
 
  While we could align our data and save a SAM file, and convert this to a BAM file later, this would both take more time and waste substantial temporary space. Instead, because the aligner outputs one aligned sequence at a time and `samtools` can process input in the same way, we can use the pipe functionality we learned about in ASN1-1 and DataCamp to combine these two steps into one command:
