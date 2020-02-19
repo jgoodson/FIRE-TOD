@@ -203,7 +203,7 @@ These first lines all start with `@`, meaning they are header lines with informa
 Next, view the SAM file with the `less` program. Scroll down (with the arrow keys) until you get past the `@` header lines into the alignment section. Here, each line represents one sequence read. As is common in these text file formats, each line represents one object, in this case a sequence read, and across the line are multiple fields separated by tabs. These fields correspond to the following information:
 
 1. Query name (the name of our sequence read)
-2. The FLAG (a special binary value that contains 12 true/false values about the read alignment)
+2. The FLAG (a special integer value that can be interpreted as 12 true/false (binary) values about the read alignment)
 3. Reference name (the name of the reference that our read aligned to, in this case the chromosome ID)
 4. The position that the read mapped to on the chromosome.
 5. Mapping quality (a numeric value indicating how well the sequence read matched the genome)
