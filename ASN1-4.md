@@ -174,7 +174,7 @@ paste -d ',' gene_labels.txt [SRA Accession 1].values [SRA Accession 2].values >
 
 ```
 
-**Q7) Download the total_counts.csv file to your computer and open it in Excel, Google Docs other spreadsheet program. How many columns are there in this file? Find the sum of each numerical column. What do these columns add up to?
+**Q7) Download the total_counts.csv file to your computer and open it in Excel, Google Docs other spreadsheet program. How many columns are there in this file? Find the sum of each numerical column. What do these columns add up to?**
 
 Now that we have this sort of tabular summary of each gene in the genome, with values corresponding to the amount of RNA in each sample, we are ready to begin our statistical analysis! 
 
