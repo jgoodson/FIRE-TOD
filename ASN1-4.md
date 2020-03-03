@@ -22,7 +22,7 @@ First, we will need to prepare a special .genome file for IGV usage. Do this by 
  
 And then provide the FASTA file and then select the GFF3 file for the "Gene file" option:
  
-![Create genome menu](Images/create_genome3.png)
+![Create genome menu](Images/create_genome2.png)
  
 Clicking OK will ask you where to save the .genome file. I suggest saving this in the same folder as the .fasta and .gff3 files. 
 
