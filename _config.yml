@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - ASN1-1.md
+  - ASN1-3.md
+  - ASN1-4.md
+  - ASN1-5.md
+  - ASN1-6.md
+  - Background Papers.md
