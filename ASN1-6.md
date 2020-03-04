@@ -4,7 +4,7 @@
 
 # Submission
 
-This assignment will be linked on ELMS and there should be a submission form for ASN5. You should submit this assignment individually. Feel free to work with and discuss the process and questions with classmates, but make please write your own answers!
+This assignment will be linked on ELMS and there should be a submission form for ASN1-6. You should submit this assignment individually. Feel free to work with and discuss the process and questions with classmates, but make please write your own answers!
 
 # 3-i. Differential Expression
 
