@@ -96,7 +96,7 @@ The tool we will use for differential expression analysis in this stream is call
 
 I've included a five-minute intro video explaining the basics of the RStudio Server interface to get you jump-started on using this for your assignment.
 
-{% include youtube.html id=nl2Qr-Tw6Ck %}
+{% include youtube.html id="nl2Qr-Tw6Ck" %}
 
 DESeq2 is available at 
 
