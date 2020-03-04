@@ -96,13 +96,7 @@ The tool we will use for differential expression analysis in this stream is call
 
 I've included a five-minute intro video explaining the basics of the RStudio Server interface to get you jump-started on using this for your assignment.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=nl2Qr-Tw6Ck" target="_blank"><img src="http://img.youtube.com/vi/nl2Qr-Tw6Ck/0.jpg" alt="Video about Dataset Warning" width="480" height="360"  /></a>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nl2Qr-Tw6Ck" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-You can find a brief explanation of the different parts of RStudio and what you might want to do with them at the following video:
-
-- https://youtube.com/video
+{% include youtube.html id=nl2Qr-Tw6Ck %}
 
 DESeq2 is available at 
 
