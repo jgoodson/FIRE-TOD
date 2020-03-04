@@ -4,7 +4,9 @@ relative_links:
   enabled: true
   collections: true
 include:
+  - index.md
   - ASN1-1.md
+  - ASN1-2.md
   - ASN1-3.md
   - ASN1-4.md
   - ASN1-5.md
