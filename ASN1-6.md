@@ -172,9 +172,7 @@ Normally, when we are doing differential expression analysis we care about the d
 
 The warning message tells us how to solve our problem: "did you mean for this to be a factor? if so, first convert this variable to a factor using the factor() function." We can replace `sampleInfo$time` with `factor(sampleInfo$time)` and force R to treat these values as distinct categories.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=uvPmk4C4wgA" target="_blank"
-><img src="http://img.youtube.com/vi/uvPmk4C4wgA0.jpg" 
-alt="Video about Dataset Warning" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=uvPmk4C4wgA" target="_blank"><img src="http://img.youtube.com/vi/uvPmk4C4wgA0.jpg" alt="Video about Dataset Warning" width="240" height="180" border="10" /></a>
 
 ```r
 sampleInfo$time
