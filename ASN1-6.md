@@ -170,7 +170,8 @@ Normally, when we are doing differential expression analysis we care about the d
 
 The warning message tells us how to solve our problem: "did you mean for this to be a factor? if so, first convert this variable to a factor using the factor() function." We can replace `sampleInfo$time` with `factor(sampleInfo$time)` and force R to treat these values as distinct categories.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=uvPmk4C4wgA" target="_blank"><img src="http://img.youtube.com/vi/uvPmk4C4wgA/0.jpg" alt="Video about Dataset Warning" width="480" height="360"  /></a>
+
+{% include youtube.html id="uvPmk4C4wgA" %}
 
 ```r
 sampleInfo$time
@@ -320,7 +321,7 @@ plotMA(res, main="Batch B vs Batch A")
 plotMA(res_24v4, main="24 HPI vs 4 HPI")
 ```
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=LFxrLVhJ-MI" target="_blank"><img src="http://img.youtube.com/vi/LFxrLVhJ-MI/0.jpg" alt="Video about MA Plot Arguments" width="480" height="360"  /></a>
+{% include youtube.html id="LFxrLVhJ-MI" %}
 
 You can switch back and forth between graphs by hitting the left and right arrows above the plots.  In these plots, known as MA-plots, each datapoint represents one feature or gene. The position on the X axis represents the average level of expression, on a log axis. The location on the y-axis shows the log2 fold-change, where positive values mean more expression compared to the baseline, and negative values mean lower expression. By default, red colored genes are statistically significant at p<0.1.
 
@@ -328,7 +329,7 @@ You can switch back and forth between graphs by hitting the left and right arrow
 
 MA-plots are valuable exploratory tools for understanding in general how big the effects were from changing each of our variables. This experiment used multiple time points to identify time-dependent changes in infection response. By comparing the vertical distribution of the points and the number of signficant (red) genes, we can quickly identify which pairs of conditions were more similar or distinct.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ceiP9OJCT-k" target="_blank"><img src="http://img.youtube.com/vi/ceiP9OJCT-k/0.jpg" alt="Using name vs constrast for obtaining results" width="480" height="360"  /></a>
+{% include youtube.html id="ceiP9OJCT-k" %}
 
 **Q11) In the same way you calculated and plotted results for 24 hpi vs 4 hpi, repeat this for the 6v4, 12v4, 24v4, 48v4, and 72v4 comparisons. 6 hours and 4 hours are very close and have very few differences. At what point would you say there are moderate changes in gene expression since 4 hours post-infection? At what point do you see dramatic changes?**
 
@@ -336,13 +337,10 @@ You likely see dramatic differences between 72 and 4 hours post-infection. Intui
 
 As another example of a biologically-motivated question, we might ask whether the most significant changes happen on day one (24 hpi vs 4hpi), day two (48 hpi vs 72 hpi), or day three (72 hpi vs 48 hpi). 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZU5IJAAX5lI" target="_blank"><img src="http://img.youtube.com/vi/ZU5IJAAX5lI/0.jpg" alt="Analyzing MA Plots" width="480" height="360"  /></a>
+{% include youtube.html id="ZU5IJAAX5lI" %}
 
 **Q12) Using either `plotMA()` and `summary()`, determine which of the three days in this experiment had the most change in gene expression (more red genes in the plots). How many genes had signficant log fold-changes (LFC) on each day?**
 
 Finally, some final tips about saving data and images from RStudio:
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=SfaylXDgZ_o" target="_blank"><img src="http://img.youtube.com/vi/SfaylXDgZ_o/0.jpg" alt="Extra tips" width="480" height="360"  /></a>
-
-
-
+{% include youtube.html id="SfaylXDgZ_o" %}
