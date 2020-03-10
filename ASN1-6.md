@@ -108,7 +108,7 @@ To ensure that everyone can successfully use the R libraries, I've pre-installed
 library(DESeq2)
 ```
 
-Running these should take a few minutes and generate a lot of output.
+Running these should take a few minutes and generate a lot of output. 
 
 DESeq2 includes an excellent, if technical, walkthrough of how to complete expression analysis on their website
 
@@ -311,7 +311,7 @@ res_24v4_signif <- subset(res_24v4[order(res_24v4$padj),], padj < 0.05)
 res_24v4_signif
 ```
 
-**Q9) What is the most signficantly differentially expressed gene at 24 hours post infection? What is the name of this human gene and what is its general function? (You need to look this up on the internet)**
+**Q9) What is the most signficantly differentially expressed gene at 24 hours post infection? What is the name of this human gene and what is its general function? (You need to look this up on the internet) (Yes I accidentally made a second Q9, just label both answers as Q9)**
 
 
 While there are many things we might do with these results, most will involve various subsequent steps processing the exported results tables for each comparison we care about. One additional feature DESeq2 has is the ability to generate plots showing the overall level of differential expression in a results set.
