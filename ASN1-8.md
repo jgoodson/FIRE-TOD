@@ -1,6 +1,10 @@
 #ASN1-8
 
-For the final training assignment, ASN1-8, we will be diverging and doing different assignments depending on your group project. I have tried to ensure that these will all take a comparable amount of time and effort for people in each group type, but they are all pretty distinct and vary from DataCamp to homebrew assignments done on TOD-compute. All three assignments are pretty substantial and are designed to fill at least this week and next and to give everyone what they need to really get going on the research projects. Please let me know if you have any concerns.
+For the final training assignment, ASN1-8, we will be diverging and doing different assignments depending on your group project. I have tried to ensure that these will all take a comparable amount of time and effort for people in each group type, but they are all pretty distinct and vary from DataCamp to homebrew assignments done on TOD-compute. 
+
+All three assignments are pretty substantial and are designed to fill at least this week and next and to give everyone what they need to really get going on the research projects. That said, I have not given these as assignments before and we are on untrodden ground here with our whole situation. If you find this is an unrealistic amount of work for two weeks, please speak with me. Please let me know if you have any concerns.
+
+I simply put all DataCamp courses in everyone's account. You are not responsible for doing all of them (or any of them), just the ones described in this assignment for your group type.
 
 ## Transcriptomics Groups
 
