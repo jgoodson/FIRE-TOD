@@ -207,7 +207,3 @@ fasttree antar.trim.aln > antar.nwk
 ```
 
 You should download both the `gapdb.nwk` and `antar.nwk` files to your computer using WinSCP or Fetch.
-
-## Tree visualization
-
-If you get here and see this message, you should refresh this page. If you still see it, yell at me on Discord or email so I can update the page.
